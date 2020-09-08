@@ -20,7 +20,7 @@ var render = Render.create({
   options: {
     width: 800,
     height: 600,
-    showAngleIndicator: true,
+    wireframes: false,
   },
 });
 
