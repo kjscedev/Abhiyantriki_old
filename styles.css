@@ -142,7 +142,39 @@ h1 {
   border: 0;
   outline: 0;
 }
+.line {
+  width: 100px;
+  background-color: black;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(45deg);
+  border-radius: 15px;
+  animation: glitch 5s infinite;
+  z-index: -1;
+  display: block;
+}
 
+@keyframes glitch {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  40% {
+    display: block;
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  41% {
+    display: none;
+    opacity: 0;
+  }
+  90% {
+    display: block;
+    opacity: 1;
+  }
+}
 /* -------------- Media Queries ------------------- */
 @media (max-width: 760px) {
   .mobile-social-media-section {
