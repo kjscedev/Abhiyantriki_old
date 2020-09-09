@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*navigation bar*/
@@ -32,9 +31,11 @@
 
 /*coming-soon section*/
 .coming-soon__section {
+  height: 150px;
   color: black;
   text-align: center;
   padding: 5px;
+  font-family: "Merienda One", cursive;
 }
 
 .coming-soon__section h1 {
@@ -44,6 +45,22 @@
 
 .coming-soon__section p {
   font-size: 20px;
+}
+
+/*coutdown_timer*/
+.countdown__section {
+  float: right;
+  margin-top: 50px;
+  margin-right: 200px;
+  background-color: peru;
+  height: 80%;
+  width: 32%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.countdown__section td {
+  padding: 10px;
 }
 
 /*sidebar*/
@@ -98,6 +115,7 @@
 .container {
   /* height: 100vh; */
   margin: 0;
+  background-color: transparent;
   padding: 0;
 }
 .hidden {
@@ -133,7 +151,7 @@ h1 {
     margin: 30px auto;
   }
   .mobile-social-media-inner-section {
-    width: 60%;
+    width: 80%;
     margin: auto;
   }
   .social-media__section {
