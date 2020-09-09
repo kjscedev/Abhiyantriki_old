@@ -48,11 +48,21 @@
 }
 
 /*coutdown_timer*/
+.countdown p{ 
+  font-size: 2.5em;
+}
+
+.countdown{
+  float: right;
+  margin-right: 17.5%;
+  background-color: cadetblue;
+}
+
 .countdown__section {
   float: right;
   margin-top: 50px;
   margin-right: 200px;
-  background-color: peru;
+  /* background-color: peru; */
   height: 80%;
   width: 32%;
   padding: 10px;
@@ -142,7 +152,8 @@ h1 {
   border: 0;
   outline: 0;
 }
-.line {
+
+/* .line {
   width: 100px;
   background-color: black;
   height: 2px;
@@ -174,7 +185,7 @@ h1 {
     display: block;
     opacity: 1;
   }
-}
+} */
 /* -------------- Media Queries ------------------- */
 @media (max-width: 760px) {
   .mobile-social-media-section {
