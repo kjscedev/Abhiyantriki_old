@@ -12,6 +12,7 @@
     <!--bootstrap styling-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Eagle+Lake&family=Merienda+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,7 +23,46 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.js"
       crossorigin="anonymous"
-    ></script>
+    >
+  </script>
+  <!--javascipt styling-->
+  <script type="text/javascript">
+    function countDown(){
+       // event's day date and time
+       var countdownDate = new Date("December 31, 2020 12:12:12").getTime()
+
+       // today's date and time
+       var currentDate = new Date().getTime()
+
+       // distance between event's day and today
+       var distance = countdownDate - currentDate 
+
+       // time calculations for days, hours, minutes and seconds
+       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+       var minutes = Math.floor((distance % (1000 * 60 * 60)) /(1000 * 60));
+       var seconds = Math.floor((distance % (1000 * 60)) /(1000));
+
+       // display in two-digit format
+       days = (days < 10) ? "0" + days : days;
+       hours = (hours < 10) ? "0" + hours : hours;
+       minutes = (minutes < 10) ? "0" + minutes : minutes;
+       seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+       // display the result in the element with id="countdown"
+       document.getElementById("days").innerHTML = days; 
+       document.getElementById("hours").innerHTML = hours;
+       document.getElementById("minutes").innerHTML = minutes;
+       document.getElementById("seconds").innerHTML = seconds;
+       
+       // If the count down is over, write some text 
+       if (distance < 0) {
+       clearInterval(x);
+       document.getElementById("countdown").innerHTML = "EXPIRED";
+       }
+    }
+    var x = setInterval(countDown,1000);
+   </script>
     <style>
       .win {
         display: flex;
@@ -83,6 +123,24 @@
             <h1> COMING SOON </h1>
             <p>Lorem ipsum dolor sit amet, consectetuer adiiscpiging elit,<br>
             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <!--countdown section-->
+         <div class="countdown__section">
+          <table>
+              <tr class="info">
+                  <td id="days"></td>
+                  <td id="hours"></td>
+                  <td id="minutes"></td>
+                  <td id="seconds"></td>
+              </tr>
+              <tr>
+                  <td>DAYS</td>
+                  <td>HOURS</td>
+                  <td>MINUTES</td>
+                  <td>SECONDS</td>
+              </tr>
+            </table>
+      </div>
+     </div>
         </div>
         <!--Sidebar-->
         <div class="social-media__section">
