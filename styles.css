@@ -12,6 +12,16 @@ body {
   background-size: cover;
 }
 
+/* #testing{
+  background-color: darkmagenta;
+  z-index: 0;
+}
+
+#testing img{
+  z-index: 1;
+  opacity: 20%;
+} */
+
 /*navigation bar*/
 .navbar__section {
   background-color: transparent;
@@ -50,10 +60,11 @@ body {
 }
 
 .coming-soon__section h1 {
-  font-size: 3em;
-  font-weight: 300;
-  height: 70px;
+  font-size: 5em;
+  font-weight: 400;
   color: white;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: 'VT323', monospace;
 }
 
 .coming-soon__section p {
