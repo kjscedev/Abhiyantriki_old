@@ -1,15 +1,21 @@
 const { Engine, Render, Runner, World, Bodies, Body, Events } = Matter;
 const winMessage = document.querySelector(".win");
 const container = document.querySelector(".container");
-const width = 500,
+let width = 500,
   height = 500,
-  wallThiccness = 2,
-  rows = 15,
-  cols = 15,
+  rows = 12,
+  cols = 12;
+if (window.innerWidth <= 768) {
+  width = window.innerWidth;
+  height = window.innerWidth;
+  rows = 10;
+  cols = 10;
+  console.log(width);
+}
+const wallThiccness = 2,
   unitLengthX = width / cols,
   unitLengthY = height / rows,
   gridWall = 5;
-
 // --------------------Matter JS Boilerplate---------------------
 const engine = Engine.create();
 // Switching off gravity
