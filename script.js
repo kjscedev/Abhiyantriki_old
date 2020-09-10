@@ -208,16 +208,16 @@ document.addEventListener("keydown", (e) => {
   const { x, y } = ball.velocity;
 
   if (e.key === "ArrowUp" || e.key === "w") {
-    Body.setVelocity(ball, { x, y: y - 5 });
+    Body.setVelocity(ball, { x, y: y - 3 });
   }
   if (e.key === "ArrowDown" || e.key === "s") {
-    Body.setVelocity(ball, { x, y: y + 5 });
+    Body.setVelocity(ball, { x, y: y + 3 });
   }
   if (e.key === "ArrowRight" || e.key === "d") {
-    Body.setVelocity(ball, { x: x + 5, y });
+    Body.setVelocity(ball, { x: x + 3, y });
   }
   if (e.key === "ArrowLeft" || e.key === "a") {
-    Body.setVelocity(ball, { x: x - 5, y });
+    Body.setVelocity(ball, { x: x - 3, y });
   }
 });
 
