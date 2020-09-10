@@ -39,8 +39,6 @@ body {
 .navbar__section li {
   display: inline;
   margin-right: 5px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .navbar__section li img {
@@ -161,6 +159,25 @@ body {
 .game_section {
   margin: 0;
   position: relative;
+}
+.game-button {
+  background-color: #ccc;
+  display: inline-block;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.5em;
+}
+.tooltipText {
+  display: inline-block;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 5px 8px;
+  margin-left: 15px;
 }
 .container {
   background-color: transparent;

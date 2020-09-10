@@ -1,6 +1,11 @@
 const { Engine, Render, Runner, World, Bodies, Body, Events } = Matter;
 const winMessage = document.querySelector(".win");
 const container = document.querySelector(".container");
+const arrowUp = document.querySelector("#arrowUp");
+const arrowDown = document.querySelector("#arrowDown");
+const arrowLeft = document.querySelector("#arrowLeft");
+const arrowRight = document.querySelector("#arrowRight");
+const tooltip = document.querySelector(".tooltipText");
 let width = 500,
   height = 500,
   rows = 12,
@@ -203,10 +208,8 @@ const ball = Bodies.circle(unitLengthX / 2, unitLengthY / 2, radius * 0.7, {
 World.add(world, ball);
 
 // ==================Event Listener================
-
+const { x, y } = ball.velocity;
 document.addEventListener("keydown", (e) => {
-  const { x, y } = ball.velocity;
-
   if (e.key === "ArrowUp" || e.key === "w") {
     Body.setVelocity(ball, { x, y: y - 3 });
   }
@@ -220,6 +223,22 @@ document.addEventListener("keydown", (e) => {
     Body.setVelocity(ball, { x: x - 3, y });
   }
 });
+arrowUp.addEventListener("click", () => {
+  Body.setVelocity(ball, { x, y: y - 3 });
+});
+arrowDown.addEventListener("click", () => {
+  Body.setVelocity(ball, { x, y: y + 3 });
+});
+arrowLeft.addEventListener("click", () => {
+  Body.setVelocity(ball, { x: x - 3, y });
+});
+arrowRight.addEventListener("click", () => {
+  Body.setVelocity(ball, { x: x + 3, y });
+});
+
+setTimeout(() => {
+  tooltip.classList.add("hidden");
+}, 5000);
 
 document.querySelector(".btn").addEventListener("click", () => {
   location.reload();
