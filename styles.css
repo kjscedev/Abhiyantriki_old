@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: darkblue;
+  background-color: darkmagenta;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,8 +14,9 @@ body {
 
 /*navigation bar*/
 .navbar__section {
-  background-color: darkblue;
+  background-color: transparent;
   color: white;
+  z-index: -1;
 }
 
 .navbar__section ul {
