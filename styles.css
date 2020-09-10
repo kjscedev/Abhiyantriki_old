@@ -12,16 +12,6 @@ body {
   background-size: cover;
 }
 
-/* #testing{
-  background-color: darkmagenta;
-  z-index: 0;
-}
-
-#testing img{
-  z-index: 1;
-  opacity: 20%;
-} */
-
 /*navigation bar*/
 .navbar__section {
   background-color: transparent;
@@ -52,8 +42,9 @@ body {
   text-align: center;
   padding: 30px 5px;
   margin: auto;
-  width: 400px;
+  width: 500px;
   color: white;
+  font-family: 'Cutive Mono', monospace;
   /* font-family: "Merienda One", cursive; */
 }
 
@@ -192,32 +183,65 @@ body {
   position: absolute;
   top: 40%;
   left: 130px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
+    /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 .hidden {
   display: none;
 }
+/* PLAY AGAIN CONFIG-1 */
+/* h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.box {
+  width: 300px;
+  height: 110px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+  border: 2px solid white;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 2px solid white;
+  outline: 0;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+} */
+/* PLAY AGAIN CONFIG-2 */
 h1 {
   color: black;
   font-size: 2.5rem;
 }
 .box {
   width: 300px;
-  height: 100px;
-  border-radius: 15px;
+  height: 110px;
+  border-radius: 10px;
   text-align: center;
-  background-color: white;
+  background-color: #DCDCDC;
+  border: 2px solid black;
 }
 .btn {
   background-color: black;
   color: white;
   font-size: 1rem;
-  border-radius: 15px;
+  border-radius: 10px;
   cursor: pointer;
   padding: 8px 12px;
-  border: 0;
+  border: 1px solid black;
   outline: 0;
+}
+.btn:hover{
+  color: purple;
 }
 
 /* -------------- Media Queries ------------------- */
@@ -238,7 +262,7 @@ h1 {
     padding: 0 10px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #ddd;
     display: block;
     transition: 0.5s;
     display: inline;
