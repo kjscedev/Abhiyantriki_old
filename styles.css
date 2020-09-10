@@ -75,7 +75,7 @@
 
 /*sidebar*/
 .social-media__section {
-  /* height: 45%; */
+  /* height: 45%;*/
   width: 55px;
   position: fixed;
   z-index: 1;
@@ -84,7 +84,7 @@
   background-color: #111;
   overflow-x: hidden;
   margin-top: 100px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .social-media__section a {
