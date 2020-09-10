@@ -5,9 +5,16 @@
   overflow-x: hidden;
 }
 
+body {
+  background-color: darkblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*navigation bar*/
 .navbar__section {
-  background-color: rgb(20, 19, 94);
+  background-color: darkblue;
   color: white;
 }
 
@@ -37,6 +44,7 @@
   padding: 30px 5px;
   margin: auto;
   width: 400px;
+  color: white;
   /* font-family: "Merienda One", cursive; */
 }
 
@@ -44,6 +52,7 @@
   font-size: 3em;
   font-weight: 300;
   height: 70px;
+  color: white;
 }
 
 .coming-soon__section p {
@@ -110,6 +119,32 @@
   display: none;
 }
 
+/* .img1 {
+  position: absolute;
+  //top: 10px;
+  //left: 10px;
+  width: 100%;
+  height: 200vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000000;
+  z-index: -2;
+} */
+.img2 {
+  position: absolute;
+  /* top: 25px;
+  left: 25px; */
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000000;
+  opacity: 35%;
+  z-index: -1;
+}
+
 /* ----------------------Game CSS------------------------ */
 .game_section {
   margin: 0;
@@ -156,39 +191,6 @@ h1 {
   outline: 0;
 }
 
-/* .line {
-  width: 100px;
-  background-color: black;
-  height: 2px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: rotate(45deg);
-  border-radius: 15px;
-  animation: glitch 5s infinite;
-  z-index: -1;
-  display: block;
-}
-
-@keyframes glitch {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-  40% {
-    display: block;
-    opacity: 1;
-    transform: rotate(0deg);
-  }
-  41% {
-    display: none;
-    opacity: 0;
-  }
-  90% {
-    display: block;
-    opacity: 1;
-  }
-} */
 /* -------------- Media Queries ------------------- */
 @media (max-width: 768px) {
   .mobile-social-media-section {
