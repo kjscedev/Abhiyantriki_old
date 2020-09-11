@@ -16,7 +16,6 @@ body {
 .navbar__section {
   background-color: transparent;
   color: white;
-  z-index: -1;
 }
 
 .navbar__section ul {
@@ -25,11 +24,10 @@ body {
   right: 0;
   margin: 0 10px;
 }
-
-.abhiyantriki_logo{
-  float: left;
+.abhiyantriki_logo img {
+  width: 250px !important;
+  z-index: 1;
 }
-
 .somaiya_logo {
   float: right;
 }
@@ -40,8 +38,8 @@ body {
 }
 
 .navbar__section li img {
-  width: 50px;
-  height: 50px;
+  /* width: 250px;
+  height: 80px; */
 }
 
 /*coming-soon section*/
@@ -52,7 +50,7 @@ body {
   margin: auto;
   width: 500px;
   color: white;
-  font-family: 'Cutive Mono', monospace;
+  font-family: "Cutive Mono", monospace;
   /* font-family: "Merienda One", cursive; */
 }
 
@@ -61,13 +59,21 @@ body {
   font-weight: 400;
   color: white;
   /* font-family: 'Kaushan Script', cursive; */
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
+}
+.coming-soon-gif {
+  background: url("/img/Backup_of_Backup_of_logo_5.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  margin: auto 25%;
 }
 
 .coming-soon__section p {
   font-size: 20px;
 }
-
+/* ----------------------------Countdown CSS---------------------------- */
 /*coutdown_timer*/
 .countdown p {
   font-size: 2.5em;
@@ -94,7 +100,7 @@ body {
   padding: 10px;
 }
 
-/*sidebar*/
+/*---------------------------------Sidebar---------------------------------*/
 .social-media__section {
   /* height: 45%;*/
   width: 55px;
@@ -112,7 +118,7 @@ body {
   padding: 6px 8px 6px 18px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #ccc;
   display: block;
   transition: 0.5s;
   overflow: hidden !important;
@@ -140,6 +146,7 @@ body {
   border: 1px solid #000000;
   z-index: -2;
 } */
+/* ---------------------------GIF Effect-------------------------- */
 .img2 {
   position: absolute;
   /* top: 25px;
@@ -174,9 +181,17 @@ body {
   margin: 0;
   background-color: black;
   color: white;
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 5px 8px;
   margin-left: 15px;
+}
+.tooltipText1 {
+  display: inline-block;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-size: 1.1rem;
+  padding: 5px 8px;
 }
 .container {
   background-color: transparent;
@@ -193,13 +208,13 @@ body {
   left: 130px;
   font-family: sans-serif;
   /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
-    /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 .hidden {
   display: none;
 }
 /* PLAY AGAIN CONFIG-1 */
-/* h1 {
+h1 {
   color: white;
   font-size: 2.5rem;
 }
@@ -220,13 +235,15 @@ body {
   padding: 8px 12px;
   border: 2px solid white;
   outline: 0;
+  transition: all 0.3s;
 }
-.btn:hover{
+.btn:hover {
   background-color: white;
   color: black;
-} */
+  font-weight: 600;
+}
 /* PLAY AGAIN CONFIG-2 */
-h1 {
+/* h1 {
   color: black;
   font-size: 2.5rem;
 }
@@ -250,7 +267,7 @@ h1 {
 }
 .btn:hover{
   color: purple;
-}
+} */
 
 /* -------------- Media Queries ------------------- */
 @media (max-width: 768px) {
@@ -283,5 +300,21 @@ h1 {
   }
   .win {
     left: 13%;
+  }
+  .abhiyantriki_logo img {
+    width: 90px !important;
+    z-index: 1;
+  }
+  .somaiya_logo {
+    /* width: 40px !important;
+    height: 40px !important; */
+    transform: scale(0.7);
+    margin: 0;
+  }
+  .img2 {
+    height: 125vh;
+  }
+  .coming-soon-gif {
+    margin: auto 10%;
   }
 }

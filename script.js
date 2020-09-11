@@ -6,6 +6,7 @@ const arrowDown = document.querySelector("#arrowDown");
 const arrowLeft = document.querySelector("#arrowLeft");
 const arrowRight = document.querySelector("#arrowRight");
 const tooltip = document.querySelector(".tooltipText");
+const tooltip1 = document.querySelector(".tooltipText1");
 let width = 500,
   height = 500,
   rows = 12,
@@ -13,11 +14,12 @@ let width = 500,
 if (window.innerWidth <= 768) {
   width = window.innerWidth;
   height = window.innerWidth;
+  tooltip1.classList.add("hidden");
   rows = 10;
   cols = 10;
   console.log(width);
 }
-const wallThiccness = 2,
+const wallThiccness = 10,
   unitLengthX = width / cols,
   unitLengthY = height / rows,
   gridWall = 5;
@@ -33,7 +35,7 @@ const render = Render.create({
     width,
     wireframes: false,
     height,
-    background: '#ffe7e3',
+    background: "#ffe7e3",
   },
 });
 Render.run(render);
@@ -43,15 +45,27 @@ Runner.run(Runner.create(), engine);
 const walls = [
   Bodies.rectangle(width / 2, 0, width, wallThiccness, {
     isStatic: true,
+    render: {
+      fillStyle: "#ff6633",
+    },
   }),
   Bodies.rectangle(0, height / 2, wallThiccness, height, {
     isStatic: true,
+    render: {
+      fillStyle: "#ff6633",
+    },
   }),
   Bodies.rectangle(width / 2, height, width, wallThiccness, {
     isStatic: true,
+    render: {
+      fillStyle: "#ff6633",
+    },
   }),
   Bodies.rectangle(width, height / 2, wallThiccness, height, {
     isStatic: true,
+    render: {
+      fillStyle: "#ff6633",
+    },
   }),
 ];
 
@@ -154,7 +168,7 @@ horizontals.forEach((row, rowIndex) => {
         isStatic: true,
         label: "wall",
         render: {
-          fillStyle: '#ff6633',
+          fillStyle: "#ff6633",
         },
       }
     );
@@ -177,7 +191,7 @@ verticals.forEach((row, rowIndex) => {
         isStatic: true,
         label: "wall",
         render: {
-          fillStyle: '#ff6633',
+          fillStyle: "#ff6633",
         },
       }
     );
@@ -206,7 +220,7 @@ const radius = Math.min(unitLengthX, unitLengthY) / 2;
 const ball = Bodies.circle(unitLengthX / 2, unitLengthY / 2, radius * 0.7, {
   label: "ball",
   render: {
-    fillStyle: '#003250',
+    fillStyle: "#003250",
   },
 });
 World.add(world, ball);
@@ -242,6 +256,7 @@ arrowRight.addEventListener("click", () => {
 
 setTimeout(() => {
   tooltip.classList.add("hidden");
+  tooltip1.classList.add("hidden");
 }, 5000);
 
 document.querySelector(".btn").addEventListener("click", () => {
