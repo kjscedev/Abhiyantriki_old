@@ -23,7 +23,15 @@ body {
   padding: 10px;
   list-style: none;
   right: 0;
-  margin-left: 10px;
+  margin: 0 10px;
+}
+
+.abhiyantriki_logo{
+  float: left;
+}
+
+.somaiya_logo {
+  float: right;
 }
 
 .navbar__section li {
@@ -93,7 +101,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0;
+  left: 0;
   background-color: #111;
   overflow-x: hidden;
   margin-top: 100px;
