@@ -62,12 +62,13 @@ body {
   font-family: "VT323", monospace;
 }
 .coming-soon-gif {
-  background: url("/img/Backup_of_Backup_of_logo_5.gif");
+  background: url("/img/Backup_of_Backup_of_logo_6.gif");
   background-repeat: no-repeat;
   background-size: contain;
   width: 300px;
   height: 300px;
   margin: auto 25%;
+  opacity: 0.95;
 }
 
 .coming-soon__section p {
@@ -302,13 +303,13 @@ h1 {
     left: 13%;
   }
   .abhiyantriki_logo img {
-    width: 90px !important;
+    width: 150px !important;
     z-index: 1;
   }
   .somaiya_logo {
     /* width: 40px !important;
     height: 40px !important; */
-    transform: scale(0.7);
+    /* transform: scale(0.5); */
     margin: 0;
   }
   .img2 {
