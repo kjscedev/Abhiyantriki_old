@@ -1,93 +1,298 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <!--font awesome-->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Abhiyantriki</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=VT323&display=swap" rel="stylesheet">
-    <!--font awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <!--bootstrap styling-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css" />
-
-    <!-- matter js -->
-  </head>
-  <body>
-    <div class = "background">
-      <!-- glitch effect -->
-      <img class="img2" src="https://thumbs.gfycat.com/LightIgnorantHoopoe-max-1mb.gif">
-        <!--navigation bar-->
-        <div class="line"></div>
-        <div class = "navbar__section">
-          <ul>
-            <li class = "abhiyantriki_logo"><img src = "img/logo.png"></li>
-            <li class = "somaiya_logo"><img src = "img/logo3.png"width="30"></li>   
-            <li class = "somaiya_logo"><img src = "img/logo2.png"width="30"></li>
-            <li class = "somaiya_logo"><img src = "img/logo1.png" width="50"></li>
-          </ul>
-        </div>
-        <!--Sidebar-->
-        <div class="social-media__section">
-          <ul>
-              <li><a href=" https://www.instagram.com/kjscelive/"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"><i class="fab fa-facebook"></i></a></li>
-              <li><a href=" https://twitter.com/kjsabhiyantriki?lang=en"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"><i class="fa fa-youtube-play"></i></a></li>
-              <li><a href="https://kjscelive.wordpress.com/"><i class="fa fa-wordpress"></i></a></li>
-          </ul>
-        </div>
-        <!--coming-soon__section-->
-        <div class="row">
-          <div class="col-sm-12 col-lg-6">
-            <div class = "coming-soon__section">
-              <div class="coming-soon-gif"></div>
-              <p>With a resounding drumroll we welcome Abhiyantriki 2020! It's here to perk up the unrelieved times we are in with a stellar lineup of events. So gird your tech side as good times are soon to dawn upon us with Abhiyantriki. Stay tuned!</p>
-            </div>
-            <div class = "gallery"><a href=" https://drive.google.com/drive/folders/1z6ffBX3UuAFrBzZgIb2HqpfuBPoyhGpt?fbclid=IwAR3ySuBx76sOydM3D4bFspxrTSUGyJJauYkVzURVTZNQ4ipo7Fdh-7cyEgI"><img src = "img/gallery1.png" width="100px"></a></div>
-            <!-- <div class="countdown">
-                <p id="demo"></p>
-                <p>Stay Tuned!</p>
-            </div> -->
-          </div>
-          <div class="col-sm-12 col-lg-6">
-            <div class="container">
-              <div class="win hidden">
-                <div class="box">
-                  <h1>You win!!</h1>
-                  <button class="btn">Play Again</button>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Page Title</title>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
+        <!-- NORMALIZE CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="icon" href="assets/images/fav.png" type="image/gif" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <!-- HELPER STYLES -->
+        <link rel="stylesheet" href="assets/css/helpers.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/common.css">
+        <!-- PAGE LEVEL STYLES -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- RESPONSIVE STYLES -->
+        <link rel="stylesheet" href="assets/css/mobile.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-transparent">
+            <section id="main-container">
+            </section>
+            <nav class="navbar navbar-light bg-transparent mb-5">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo.PNG" alt="Logo" class="img img-responsive logo">
+                </a>
+                
+                <a href="">
+                    <img src="assets/images/LOGOS.png"  class="shit-logo">
+                </a>
+            </nav>
+            <section id="comming-soon">
+                <div class="container text-center">
+                    <div class="inner-container">
+                        <div class="flex px-3">
+                            <h1 class="heading">Coming
+                            <span>Soon</span>
+                            </h1>
+                            <p class="content mb-5">Brace yourselves as Abhiyantriki is about to bedazzle your mind with its rip-roaring tech exposure. With only a few screws to be nailed, the final poster of Abhiyantriki will be out soon. Stay tuned as we tell you about the plethora of events we’ve set up for you.</p>
+                            <ul class="countdown text-color">
+                                <li>
+                                    <span class="days count">00</span>
+                                    <p class="sub-count days_ref">days</p>
+                                </li>
+                                <li>
+                                    <span class="hours count">00</span>
+                                    <p class="sub-count hours_ref">hours</p>
+                                </li>
+                                <li>
+                                    <span class="minutes count">00</span>
+                                    <p class="sub-count minutes_ref">minutes</p>
+                                </li>
+                                <li>
+                                    <span class="seconds count">00</span>
+                                    <p class="sub-count seconds_ref">seconds</p>
+                                </li>
+                            </ul>
+                            <div class="row mb-5">
+                                <div class="col-md-12">
+                                    <h5 class="subtitle text-accent">Gallery</h5>
+                                    <a href="https://mail.google.com/mail/u/0/#inbox/FMfcgxwDrHwGxDcMdLMcLcSWhbFVGqSF">
+                                        <img src="assets/images/coming-soon/polaroid.png" alt="Gallery" class="img img-responsive glow gallery-icon mb-4">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex d-flex flex-row justify-content-center align-items-center">
+                            <canvas id="myCanvas" width="320" height="320" style="background:url('assets/images/coming-soon/game/background.png');  background-size: 100%; height: 80% "> </canvas>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </section>
+            
+            <div class="social-left">
+                <div id="social">
+                    <div class="follow rotate">Follow us on</div>
+                    <div class="vertical-solid-line"></div>
+                    <div class="social-media text-center">
+                        <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"><i class="fa fa-facebook icon-fa fa-2x" aria-hidden="true"  id="facebook"></i></a>
+                        <a href="https://twitter.com/kjsabhiyantriki?lang=en"><i class="fa fa-twitter icon-fa fa-2x" aria-hidden="true" id="twitter"></i></a>
+                        <a href="https://www.snapchat.com/add/kjscelive"><i class="fa fa-snapchat-ghost icon-fa fa-2x" aria-hidden="true" id="snapchat"></i></a>
+                        <a href="https://www.instagram.com/kjscelive/"><i class="fa fa-instagram icon-fa fa-2x" aria-hidden="true" id="instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"><i class="fa fa-youtube-play icon-fa fa-2x" aria-hidden="true" id="youtube"></i></a>
+                        <a href="https://kjscelive.wordpress.com/"><i class="fa fa-wordpress icon-fa fa-2x" aria-hidden="true" id="wordpress"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="game-buttons">
-              <div class="game-button"id="arrowUp"><i class="fa fa-arrow-up"></i></div>
-              <div class="game-button"id="arrowDown"><i class="fa fa-arrow-down"></i></div>
-              <div class="game-button"id="arrowLeft"><i class="fa fa-arrow-left"></i></div>
-              <div class="game-button"id="arrowRight"><i class="fa fa-arrow-right"></i></div>
-              <div class="suggestion">
-                <div class="tooltipText">Use Icons to play</div>
-                <div class="tooltipText1">/arrow keys</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="mobile-social-media-section">
-        <div class="mobile-social-media-inner-section">
-          <a href=" https://www.instagram.com/kjscelive/"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.facebook.com/kjsceabhiyantriki/?ref=br_rs"><i class="fab fa-facebook"></i></a>
-          <a href=" https://twitter.com/kjsabhiyantriki?lang=en"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.youtube.com/channel/UC7Z32X4uNZ8c31NteK3065g"><i class="fa fa-youtube-play"></i></a>
-          <a href="https://kjscelive.wordpress.com/"><i class="fa fa-wordpress"></i></a>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.js" crossorigin="anonymous"></script>
-  <script src="script.js" async defer></script>
-</html>
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <!-- <script src="assets/js/noise.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/pipeline.js"></script>
+            <script src="assets/js/demo.js"></script> -->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+            <script src="assets/plugins/downcount/jquery.downCount.js"></script>
+            <!-- PAGE LEVEL SCRIPT -->
+            <script src="assets/js/index.js"></script>
+            <script>
+            // ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            //
+            var kontext = myCanvas.getContext("2d");
+            var FPS = 40;
+            var jump_amount = -10;
+            var max_fall_speed = +10;
+            var acceleration = 1;
+            var pipe_speed = -2;
+            var game_mode = 'prestart';
+            var time_game_last_running;
+            var bottom_bar_offset = 0;
+            var pipes = [];
+            function MySprite(img_url) {
+            this.x = 0;
+            this.y = 0;
+            this.visible = true;
+            this.velocity_x = 0;
+            this.velocity_y = 0;
+            this.MyImg = new Image();
+            this.MyImg.src = img_url || '';
+            this.angle = 0;
+            this.flipV = false;
+            this.flipH = false;
+            }
+            MySprite.prototype.Do_Frame_Things = function() {
+            kontext.save();
+            kontext.translate(this.x + this.MyImg.width / 2, this.y + this.MyImg.height / 2);
+            kontext.rotate(this.angle * Math.PI / 180);
+            if (this.flipV) kontext.scale(1, -1);
+            if (this.flipH) kontext.scale(-1, 1);
+            if (this.visible) kontext.drawImage(this.MyImg, -this.MyImg.width / 2, -this.MyImg.height / 2);
+            this.x = this.x + this.velocity_x;
+            this.y = this.y + this.velocity_y;
+            kontext.restore();
+            }
+            function ImagesTouching(thing1, thing2) {
+            if (!thing1.visible || !thing2.visible) return false;
+            if (thing1.x >= thing2.x + thing2.MyImg.width || thing1.x + thing1.MyImg.width <= thing2.x) return false;
+            if (thing1.y >= thing2.y + thing2.MyImg.height || thing1.y + thing1.MyImg.height <= thing2.y) return false;
+            return true;
+            }
+            function Got_Player_Input(MyEvent) {
+            switch (game_mode) {
+            case 'prestart':
+            {
+            game_mode = 'running';
+            break;
+            }
+            case 'running':
+            {
+            bird.velocity_y = jump_amount;
+            break;
+            }
+            case 'over':
+            if (new Date() - time_game_last_running > 1000) {
+            reset_game();
+            game_mode = 'running';
+            break;
+            }
+            }
+            MyEvent.preventDefault();
+            }
+            addEventListener("touchstart", Got_Player_Input);
+            addEventListener("mousedown", Got_Player_Input);
+            addEventListener("keydown", Got_Player_Input);
+            function make_bird_slow_and_fall() {
+            if (bird.velocity_y < max_fall_speed) {
+            bird.velocity_y = bird.velocity_y + acceleration;
+            }
+            if (bird.y > myCanvas.height - bird.MyImg.height) {
+            bird.velocity_y = 0;
+            game_mode = 'over';
+            }
+            }
+            function add_pipe(x_pos, top_of_gap, gap_width) {
+            var top_pipe = new MySprite();
+            top_pipe.MyImg = pipe_piece;
+            top_pipe.x = x_pos;
+            top_pipe.y = top_of_gap - pipe_piece.height;
+            top_pipe.velocity_x = pipe_speed;
+            pipes.push(top_pipe);
+            var bottom_pipe = new MySprite();
+            bottom_pipe.MyImg = pipe_piece;
+            bottom_pipe.flipV = true;
+            bottom_pipe.x = x_pos;
+            bottom_pipe.y = top_of_gap + gap_width;
+            bottom_pipe.velocity_x = pipe_speed;
+            pipes.push(bottom_pipe);
+            }
+            function make_bird_tilt_appropriately() {
+            if (bird.velocity_y < 0) {
+            bird.angle = -15;
+            } else if (bird.angle < 70) {
+            bird.angle = bird.angle + 4;
+            }
+            }
+            function show_the_pipes() {
+            for (var i = 0; i < pipes.length; i++) {
+            pipes[i].Do_Frame_Things();
+            }
+            }
+            function check_for_end_game() {
+            for (var i = 0; i < pipes.length; i++)
+            if (ImagesTouching(bird, pipes[i])) game_mode = "over";
+            }
+            function display_intro_instructions() {
+            kontext.font = "20px Roboto";
+            kontext.fillStyle = "#29001b";
+            kontext.textAlign = "center";
+            kontext.fillText("Click to start the game", myCanvas.width / 2, myCanvas.height / 4);
+            }
+            function display_game_over() {
+            var score = 0;
+            for (var i = 0; i < pipes.length; i++)
+            if (pipes[i].x < bird.x) score = score + 0.5;
+            kontext.font = "25px Roboto";
+            kontext.fillStyle = "#29001b";
+            kontext.textAlign = "center";
+            kontext.fillText("Game Over", myCanvas.width / 2, 100);
+            kontext.fillText("Score: " + score, myCanvas.width / 2, 130);
+            kontext.font = "15px Roboto";
+            kontext.fillText("Click to play again", myCanvas.width / 2, 200);
+            }
+            function display_bar_running_along_bottom() {
+            if (bottom_bar_offset < -23) bottom_bar_offset = 0;
+            kontext.drawImage(bottom_bar, bottom_bar_offset, myCanvas.height - bottom_bar.height);
+            }
+            function reset_game() {
+            bird.y = myCanvas.height / 2;
+            bird.angle = 0;
+            pipes = []; // erase all the pipes from the array
+            add_all_my_pipes(); // and load them back in their starting positions
+            }
+            function add_all_my_pipes() {
+            add_pipe(500, 100, 140);
+            add_pipe(800, 50, 140);
+            add_pipe(1000, 150, 140);
+            add_pipe(1200, 150, 120);
+            add_pipe(1600, 100, 120);
+            add_pipe(1800, 150, 120);
+            add_pipe(2000, 200, 120);
+            add_pipe(2200, 250, 120);
+            add_pipe(2400, 30, 100);
+            add_pipe(2700, 300, 100);
+            add_pipe(3000, 100, 80);
+            add_pipe(3300, 250, 80);
+            add_pipe(3600, 50, 60);
+            var finish_line = new MySprite("http://s2js.com/img/etc/flappyend.png");
+            finish_line.x = 3900;
+            finish_line.velocity_x = pipe_speed;
+            pipes.push(finish_line);
+            }
+            var pipe_piece = new Image();
+            pipe_piece.onload = add_all_my_pipes;
+            pipe_piece.src = "assets/images/coming-soon/game/pipe.png";
+            function Do_a_Frame() {
+            kontext.clearRect(0, 0, myCanvas.width, myCanvas.height);
+            bird.Do_Frame_Things();
+            display_bar_running_along_bottom();
+            switch (game_mode) {
+            case 'prestart':
+            {
+            display_intro_instructions();
+            break;
+            }
+            case 'running':
+            {
+            time_game_last_running = new Date();
+            bottom_bar_offset = bottom_bar_offset + pipe_speed;
+            show_the_pipes();
+            make_bird_tilt_appropriately();
+            make_bird_slow_and_fall();
+            check_for_end_game();
+            break;
+            }
+            case 'over':
+            {
+            make_bird_slow_and_fall();
+            display_game_over();
+            break;
+            }
+            }
+            }
+            var bottom_bar = new Image();
+            bottom_bar.src = "assets/images/coming-soon/game/ground.png";
+            var bird = new MySprite("assets/images/coming-soon/game/object.png");
+            bird.x = myCanvas.width / 3;
+            bird.y = myCanvas.height / 2;
+            setInterval(Do_a_Frame, 1000 / FPS);
+            </script>
+            <script src="assets/plugins/particles.js"></script>
+            <script src="assets/js/bg.js"></script>
+        </body>
+    </html>
