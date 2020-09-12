@@ -72,7 +72,9 @@ body {
 }
 
 .coming-soon__section p {
-  font-size: 20px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
