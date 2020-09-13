@@ -62,7 +62,7 @@ body {
   font-family: "VT323", monospace;
 }
 .coming-soon-gif {
-  background: url("/img/Final.gif");
+  background: url("img/Final.gif");
   background-repeat: no-repeat;
   background-size: contain;
   width: 250px;
