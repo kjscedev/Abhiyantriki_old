@@ -50,17 +50,10 @@ body {
   margin: auto;
   width: 500px;
   color: white;
-  font-family: "Cutive Mono", monospace;
+  font-family: "Roboto", sans-serif;
   /* font-family: "Merienda One", cursive; */
 }
 
-.coming-soon__section h1 {
-  font-size: 5em;
-  font-weight: 400;
-  color: white;
-  /* font-family: 'Kaushan Script', cursive; */
-  font-family: "VT323", monospace;
-}
 .coming-soon-gif {
   background: url("img/Final.gif");
   background-repeat: no-repeat;
@@ -299,5 +292,11 @@ h1 {
   }
   .gallery {
     margin-bottom: 25px;
+  }
+  .game-button {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    border-radius: 50%;
   }
 }
