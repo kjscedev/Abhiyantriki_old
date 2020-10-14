@@ -546,4 +546,10 @@ canvas {
     padding-top: 0vw;
     margin: auto;
   }
+  .game-button {
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    border-radius: 50%;
+  }
 }
