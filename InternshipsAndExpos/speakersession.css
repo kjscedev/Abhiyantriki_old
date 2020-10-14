@@ -1,0 +1,95 @@
+.container {
+  margin-top: 20px;
+  height: 300px;
+  z-index: 1;
+  color: white;
+  position: relative;
+}
+.row {
+  padding: 20px;
+  /* height: 300px; */
+}
+
+/* ----------------------register button-------------------------- */
+.register__button ul li a {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.register__button {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+/* -------------------speaker section------------- */
+.card-container {
+  width: 80vw;
+  margin: auto;
+  /* margin-top: 20px; */
+  padding: 0 2vw;
+  transform: translateX(-5vw);
+  margin-left: auto;
+}
+.text {
+  text-align: center;
+  height: auto;
+}
+.speaker-card {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  /* margin-top: 25px; */
+}
+.speaker-img img {
+  width: 100%;
+}
+
+.speaker-img {
+  width: 40%;
+  padding: 5vh;
+  height: auto;
+}
+
+.speaker-text {
+  width: 60%;
+  float: left;
+  text-align: justify;
+  padding-right: 2%;
+  color: #f1f1f1;
+  font-size: 1rem;
+  margin: auto;
+  /* margin-top: 10vh; */
+}
+
+h3 {
+  text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* margin-left: 5%; */
+  }
+  .speaker-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-container img {
+    width: 70vw;
+  }
+  .speaker-text {
+    text-align: center;
+    float: none;
+    width: 80%;
+  }
+  h3 {
+    text-align: center;
+    padding: 10px 0;
+  }
+}

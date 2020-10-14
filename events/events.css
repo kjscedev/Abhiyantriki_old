@@ -1,0 +1,200 @@
+.container {
+  margin-top: 20px;
+  height: 300px;
+  z-index: 1;
+  color: white;
+  position: relative;
+}
+
+.row {
+  padding: 20px;
+  height: 300px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.dev {
+  display: block;
+}
+
+/* ------------------------Event GIF------------------------- */
+.custom-modal {
+  color: black;
+  /* padding: 10px; */
+}
+
+.modal-header {
+  color: white;
+  background-color: rgba(174, 0, 255, 0.8);
+}
+.modal-backdrop {
+  position: inherit;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+hr + div {
+  align-content: right;
+  text-align: right;
+}
+
+.list-indent {
+  margin-left: 20px;
+}
+
+/* ------------------------Event GIF------------------------- */
+#particles-js {
+  z-index: -1;
+  background-attachment: fixed;
+}
+
+.event {
+  margin: 10vh;
+  font-size: 10vw;
+  z-index: 1;
+}
+
+/*-------------------------- buttons --------------------------*/
+.buttons-container {
+  margin: 0 10%;
+  padding-top: 50px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.clicked-btn {
+  color: white !important;
+  background-color: rgba(174, 0, 255, 0.8) !important;
+  border: none;
+}
+
+.btn-details {
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  letter-spacing: 3px;
+  font-weight: 600 !important;
+  border: none !important;
+  /* margin: auto; */
+}
+
+.btn-details:focus {
+  outline: none;
+}
+
+.btn-details:hover {
+  color: #404040 !important;
+  background-color: rgb(212, 226, 224);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+/*-------------------------- Cards --------------------------*/
+/* https://codepen.io/travishorn/embed/bzXEjd?default-tab=&theme-id= */
+.cards {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 5rem;
+  padding: 15px;
+}
+
+.card {
+  /* color: white; */
+  padding: 1rem;
+  height: auto;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.card-img {
+  width: 100%;
+  /* align-items: center; */
+}
+
+.card-header {
+  color: coral;
+  font-size: 2em;
+  text-align: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.card-info {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .buttons-container {
+    flex-direction: column;
+  }
+  .buttons-container span {
+    margin: auto;
+  }
+
+  .btn-details {
+    background: #404040;
+    color: #ffffff !important;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  .clicked-btn {
+    color: white !important;
+    background-color: rgba(174, 0, 255, 0.8);
+  }
+  .modal-header {
+    width: 100%;
+  }
+}
+
+/* Screen larger than 600px? 2 column */
+/* @media (min-width: 600px) {
+	.cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+} */
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.clicked-btn {
+  background-color: white;
+  color: black;
+}

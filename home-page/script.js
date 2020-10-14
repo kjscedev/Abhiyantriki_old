@@ -1,14 +1,3 @@
-setTimeout(() => {
-    $(".preloader-anim").addClass("hidden");
-    $(".outer").removeClass('hidden');
-    $(".loader-gif").removeClass(".loader-gif");
-}, 4000);
-// $(window).load(function() {
-        
-//   $(".loader").fadeOut("slow");
-//   $(".loader").removeClass(".loader");
-
-// });
 // Carousel
 function moveToSelected(element) {
 

@@ -1,0 +1,146 @@
+.container {
+  margin-top: 20px;
+  height: 300px;
+  z-index: 1;
+  color: white;
+  position: relative;
+}
+.row {
+  padding: 20px;
+  height: 300px;
+}
+
+/* ----------------------register button-------------------------- */
+.register__button ul li a {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.register__button {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+/* -------------------------------Tech Expo section--------------------------------- */
+
+.card-container {
+  width: 90vw;
+  padding: 0 10vw;
+  transform: translateX(-5vw);
+  margin-right: 4vw;
+}
+
+.card-odd,
+.card-even {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.img-odd {
+  width: 60%;
+  float: left;
+  padding: 1%;
+  height: auto;
+}
+
+.text-odd {
+  width: 100%;
+  float: right;
+  text-align: left;
+  color: #f1f1f1;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 10vh;
+}
+
+.img-even {
+  width: 60%;
+  float: right;
+  padding: 1%;
+  height: auto;
+}
+
+.text-even {
+  width: 100%;
+  float: left;
+  text-align: justify;
+  padding-right: 2%;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 10vh;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .parvaah-content {
+    padding-top: 0vw;
+    margin: auto;
+  }
+
+  .images {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    left: -3%;
+  }
+
+  .image-l {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .image-r {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+  }
+  .right {
+    border: none;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .card-odd {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+  }
+  .card-even {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-container img {
+    width: 70vw;
+  }
+  .image {
+    padding-left: 10vw;
+  }
+  .text-even,
+  .text-odd {
+    text-align: center;
+    margin-top: 15px;
+    /* margin-right: 5vw; */
+  }
+}

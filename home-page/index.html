@@ -17,8 +17,8 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../home.css" />
     <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=VT323&display=swap"
@@ -36,56 +36,7 @@
   </head>
 
   <body>
-    
-    <!-- Preloader -->
-    <div class="preloader-anim"><div class="loader-gif"></div></div>
-    <!-- <svg version="1.1" id="preloader" x="0px" y="0px" width="240px" height="120px" viewBox="0 0 240 120">
-      
-      <path id="loop-normal" class="st1" d="M120.5,60.5L146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
-      L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0z">
-          <animate attributeName="stroke-dasharray" attributeType="XML"
-              from="500, 50"  to="450 50"
-              begin="0s" dur="2s"
-              repeatCount="indefinite"/>
-          <animate attributeName="stroke-dashoffset" attributeType="XML"
-              from="-40"  to="-540"
-              begin="0s" dur="2s"
-              repeatCount="indefinite"/>  
-      </path>
-        
-      <path id="loop-offset" d="M146.48,87.02c14.64,14.64,38.39,14.65,53.03,0s14.64-38.39,0-53.03s-38.39-14.65-53.03,0L120.5,60.5
-      L94.52,87.02c-14.64,14.64-38.39,14.64-53.03,0c-14.64-14.64-14.64-38.39,0-53.03c14.65-14.64,38.39-14.65,53.03,0L120.5,60.5
-      L146.48,87.02z"/>
-        
-      <path id="socket" d="M7.5,0c0,8.28-6.72,15-15,15l0-30C0.78-15,7.5-8.28,7.5,0z"/>  
-        
-      <path id="plug" d="M0,9l15,0l0-5H0v-8.5l15,0l0-5H0V-15c-8.29,0-15,6.71-15,15c0,8.28,6.71,15,15,15V9z"/>
-        
-      <animateMotion
-          xlink:href="#plug"
-          dur="2s"
-          rotate="auto"
-          repeatCount="indefinite"
-          calcMode="linear"
-          keyTimes="0;1"    
-          keySplines="0.42, 0, 0.58, 1">
-          <mpath xlink:href="#loop-normal"/>
-      </animateMotion>
-        
-      <animateMotion             
-          xlink:href="#socket"
-          dur="2s"
-          rotate="auto"
-          repeatCount="indefinite"
-          calcMode="linear"
-          keyTimes="0;1"
-          keySplines="0.42, 0, 0.58, 1">
-          <mpath xlink:href="#loop-offset"/>
-      </animateMotion>  
-      </svg>
-    </div>   -->
-  
-  <div class="outer hidden">
+  <div class="outer">
     <!-- Navbar -->
     <nav
       class="navbar navbar-expand-lg navbar-dark"
@@ -94,7 +45,7 @@
       <div class="navbar-brand" id="abhiyantriki-logo">
         <a href="/">
           <img
-            src="./img/logo.png"
+            src="../img/logo.png"
           />
         </a>
       </div>
@@ -114,15 +65,15 @@
         <ul class="navbar-nav mobile">
           <li class="nav-item navbar-dark">
             <a href="#" class="nav-link">
-              <img src="./img/logo1.png" id="somaiya-logo" alt="KJSCE">
-              <img src="./img/KJSCE-Logo.png" id="kj-logo" alt="KJSCE">
+              <img src="../img/logo1.png" id="somaiya-logo" alt="KJSCE">
+              <img src="../img/KJSCE-Logo.png" id="kj-logo" alt="KJSCE">
             </a>
           </li>
           <li class="nav-item navbar-dark">
             <a href="#" class="nav-link active"><span>Home</span></a>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./events/index.html" class="nav-link"><span>Events</span></a>
+            <a href="../events/index.html" class="nav-link"><span>Events</span></a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -137,20 +88,19 @@
               Expos & Speakers
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="./InternshipsandExpos/techexpo.html"><span>Tech Expo</span></a>
-              <a class="dropdown-item" href="#"><span>Auto Expo</span></a>
-              <a class="dropdown-item" href="#"><span>Internship Expo</span></a>
-              <a class="dropdown-item" href="#"><span>Speaker Session</span></a>
+              <a class="dropdown-item" href="../InternshipsandExpos/techexpo.html"><span>Tech Expo</span></a>
+              <!-- <a class="dropdown-item" href="#"><span>Internship Expo</span></a> -->
+              <a class="dropdown-item" href="../InternshipsAndExpos/speakersession.html"><span>Speaker Session</span></a>
             </div>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./getInvolved/index.html" class="nav-link"><span>Get Involoved</span></a>
+            <a href="../getInvolved/index.html" class="nav-link"><span>Get Involoved</span></a>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./parvaah/index.html" class="nav-link"><span>Parvaah</span></a>
+            <a href="../parvaah/index.html" class="nav-link"><span>Parvaah</span></a>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./sponsors/index.html" class="nav-link"><span>Sponsors</span></a>
+            <a href="../sponsors/index.html" class="nav-link"><span>Sponsors</span></a>
           </li>
           <li class="nav-item navbar-dark">
             <a href="#contact-section" class="nav-link"><span>Contact</span></a>
@@ -162,7 +112,7 @@
             <a href="#" class="nav-link active"><span>Home</span></a>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./events/index.html" class="nav-link nav-btn"><span>Events</span></a>
+            <a href="../events/index.html" class="nav-link nav-btn"><span>Events</span></a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -177,27 +127,28 @@
               Expos & Speakers
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="./InternshipsandExpos/techexpo.html"><span>Tech Expo</span></a>
+              <a class="dropdown-item" href="../InternshipsAndExpos/techexpo.html"><span>Tech Expo</span></a>
+              <!-- <a class="dropdown-item" href="#"><span>Auto Expo</span></a> -->
               <!-- <a class="dropdown-item" href="#"><span>Internship Expo</span></a> -->
-              <a class="dropdown-item" href="#"><span>Speaker Session</span></a>
+              <a class="dropdown-item" href="../InternshipsAndExpos/speakersession.html"><span>Speaker Session</span></a>
             </div>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./getInvolved/index.html" class="nav-link nav-btn"><span>Get Involoved</span></a>
+            <a href="../getInvolved/index.html" class="nav-link nav-btn"><span>Get Involoved</span></a>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./parvaah/index.html" class="nav-link nav-btn"><span>Parvaah</span></a>
+            <a href="../parvaah/index.html" class="nav-link nav-btn"><span>Parvaah</span></a>
           </li>
           <li class="nav-item navbar-dark">
-            <a href="./sponsors/index.html" class="nav-link nav-btn"><span>Sponsors</span></a>
+            <a href="../sponsors/index.html" class="nav-link nav-btn"><span>Sponsors</span></a>
           </li>
           <li class="nav-item navbar-dark">
             <a href="#contact-section" class="nav-link nav-btn"><span>Contact</span></a>
           </li>
           <li class="nav-item navbar-dark">
             <a href="#" class="nav-link">
-              <img src="./img/logo1.png" id="somaiya-logo" alt="KJSCE">
-              <img src="./img/KJSCE-Logo.png" id="kj-logo" alt="KJSCE">
+              <img src="../img/logo1.png" id="somaiya-logo" alt="KJSCE">
+              <img src="../img/KJSCE-Logo.png" id="kj-logo" alt="KJSCE">
             </a>
           </li>
         </ul>
@@ -205,43 +156,43 @@
     </nav>
 
     <div class="inner">
-      
+    
       <!--abhiyantriki gif-->
       <div class="abhiyantriki_animation">
-        <img src="./img/animation.gif" alt="Abhiyantriki gif">
+        <img src="../img/animation.gif" alt="Abhiyantriki gif">
       </div>
 
-    <div class="navslide">
-			<div id="carousel">
-
-        <div class="hideLeft">
-          <a href="./parvaah/index.html"><img src="./img/icons/parvaah.png"></a>
+      <div class="navslide">
+        <div id="carousel">
+  
+          <div class="hideLeft">
+            <a href="../parvaah/index.html"><img src="../img/icons/parvaah.png"></a>
+          </div>
+  
+          <div class="prevLeftSecond">
+            <a href="#"><img src="../img/icons/INFORMALS.png"></a>
+          </div>
+  
+          <div class="prev">
+            <a href="../InternshipsAndExpos/speakersession.html"><img src="../img/icons/Speaker.png"></a>
+          </div>
+  
+          <div class="selected">
+            <a href="../events/index.html"><img src="../img/icons/Events.png"></a>
+          </div>
+  
+          <div class="next">
+            <a href="../InternshipsAndExpos/techexpo.html"><img src="../img/icons/Tech_expo.png"></a>
+          </div>
+  
+          <div class="nextRightSecond">
+            <a href="#"><img src="../img/icons/intern.png"></a>
+          </div>
+  
         </div>
-
-        <div class="prevLeftSecond">
-          <a href="#"><img src="./img/icons/INFORMALS.png"></a>
-        </div>
-
-        <div class="prev">
-          <a href="./InternshipsAndExpos/speakersession.html"><img src="./img/icons/Speaker.png"></a>
-        </div>
-
-        <div class="selected">
-          <a href="./events/index.html"><img src="./img/icons/Events.png"></a>
-        </div>
-
-        <div class="next">
-          <a href="./InternshipsAndExpos/techexpo.html"><img src="./img/icons/Tech_expo.png"></a>
-        </div>
-
-        <div class="nextRightSecond">
-          <a href="#"><img src="./img/icons/intern.png"></a>
-        </div>
-
-			</div>
-      <div id="prev" class="prv"></div>
-      <div id="next" class="nxt"></div> 
-    </div>
+        <div id="prev" class="prv"></div>
+        <div id="next" class="nxt"></div> 
+      </div>
     
     <div class="container">
 
@@ -254,7 +205,7 @@
       <div class="card-container">
         <!-- About Kjsce -->
         <div class="card1">
-          <img class="img-about" src="./img/kjsce.png">
+          <img class="img-about" src="../img/kjsce.png">
           <div class="text"> 
           K.J. Somaiya College of Engineering is a nationally reputed engineering college under the
           Somaiya Vidyavihar University (SVU) offering 4-year B-Tech courses to 5 branches of
@@ -275,15 +226,16 @@
           take place during the two-day-long celebration. This year will go down history as the first
           time when Abhiyantriki 2020 is conducted virtually!
           </div>
-          <img class="img-about order-1 order-md-2" src="./img/Abhiyantriki.png">
+          <img class="img-about order-1 order-md-2" src="../img/Abhiyantriki.png">
         </div>
           
       </div>
+      
       <!--ISRO section-->
       <div class="isro-section">
         <div class="isro-img">
-          <img src="./img/tech-expo-isro.png" >
-          <img src="./img/csir1.png" >
+          <img src="../img/tech-expo-isro.png" >
+          <img src="../img/csir1.png" >
         </div>
         <div class="heading">
             <h3>Tech Expo</h3>
@@ -293,13 +245,14 @@
       </div>
       <div class="isro-text">ISRO & CSIR, two of India's greatest establishments dedicated to service in the field of technology are to grace Abhiyantriki 2020, the very first version in virtual format which defies the conventional norms to put on a show beyond imagination! These mighty organizations shall exhibit glimpses of their remarkable achievements which has put them in a league we all dream of becoming a part, since our childhood!</div>
 
+
       <!--Timeline image-->
       <div class="timeline">
         <div class="timeline-pc">
-          <img src="./img/Timeline_pc.png" alt="Timeline">
+          <img src="../img/Timeline_pc.png" alt="Timeline">
         </div>
         <div class="timeline-mobile">
-          <img src="./img/Timeline_mobile.png" alt="Timeline">
+          <img src="../img/Timeline_mobile.png" alt="Timeline">
         </div>
       </div>
 
@@ -317,7 +270,7 @@
               striving to spread maximum social awareness in the community.</p>
           </div>
           <div class="know-more">
-            <a href="./parvaah/index.html"><button class="nav-btn">Know more</button></a>
+            <a href="../parvaah/index.html"><button class="nav-btn">Know more</button></a>
           </div>
         </div>
 
@@ -341,10 +294,10 @@
           </div>
           <div class="contact-links">
             <a href="/" class="white"><i class="fa fa-home"></i> Home</a>
-            <a href="./events/index.html" class="white"><i class="fa fa-calendar-alt"></i> Events</a>
-            <a href="./getInvolved/index.html" class="white"><i class="fas fa-hands-helping"></i> Get Involved</a>
-            <a href="./parvaah/index.html" class="white"><i class="fas fa-hands"></i> Parvaah</a>
-            <a href="./sponsors/index.html" class="white"><i class="fa fa-pagelines"></i> Sponsors</a>
+            <a href="../events/index.html" class="white"><i class="fa fa-calendar-alt"></i> Events</a>
+            <a href="../getInvolved/index.html" class="white"><i class="fas fa-hands-helping"></i> Get Involved</a>
+            <a href="../parvaah/index.html" class="white"><i class="fas fa-hands"></i> Parvaah</a>
+            <a href="../sponsors/index.html" class="white"><i class="fa fa-pagelines"></i> Sponsors</a>
             <a href="https://cutt.ly/Abhiyantriki_2020_Registration" class="white"><i class="fa fa-edit"></i> Register</a>
           </div>
         </div>
@@ -358,7 +311,7 @@
           ></a>
         </li>
         <li>
-          <a href="./game/index.html"
+          <a href="../game/index.html"
             ><i class="fa fa-puzzle-piece"></i
           ></a>
         </li>
@@ -435,8 +388,8 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js" async defer></script>
-    </div>
+    <script src="./script.js" async defer></script>
   </div>
+</div>
   </body>
 </html>

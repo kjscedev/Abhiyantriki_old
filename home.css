@@ -1,0 +1,602 @@
+.outer {
+  background: linear-gradient(to bottom, #2c1849, #1e1033);
+}
+.inner {
+  margin: auto 5%;
+}
+.loader-gif {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("./img/loadu3.gif") 50% 50% no-repeat black;
+  background-size: contain;
+}
+nav {
+  margin: 0 !important;
+}
+.container {
+  margin-top: 20px;
+  color: white;
+}
+/* ----------------------- Abhiyantriki Gif ------------------------ */
+.abhiyantriki_animation {
+  width: 50%;
+  margin: auto;
+}
+.abhiyantriki_animation img {
+  width: 100%;
+}
+/* --------------------------- Carousel ---------------------------- */
+
+.navslide {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  margin: auto;
+}
+
+#carousel {
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  height: 15vw;
+  overflow: hidden;
+}
+
+#carousel div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+}
+
+#carousel div img {
+  height: 13vw;
+  width: auto;
+  transition: height 1s;
+}
+
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(10%) translateX(-50%);
+}
+
+#carousel div.hideLeft img {
+  height: 3vw;
+}
+
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(10%) translateX(-50%);
+}
+
+#carousel div.hideRight img {
+  height: 3vw;
+}
+
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateX(-50%) translateY(25%);
+}
+
+#carousel div.prev img {
+  height: 10vw;
+}
+
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(75%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousel div.prevLeftSecond img {
+  height: 5vw;
+}
+
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateX(-50%) translateY(25%);
+}
+
+#carousel div.next img {
+  height: 10vw;
+}
+
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(75%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousel div.nextRightSecond img {
+  height: 5vw;
+}
+
+.prev img,
+.next img,
+.nextRightSecond img,
+.prevLeftSecond img {
+  opacity: 0.4;
+}
+
+.nxt {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 40px solid #f1f1f1;
+  border-bottom: 25px solid transparent;
+  grid-column: 3;
+  grid-row: 1;
+  margin: auto;
+}
+
+.prv {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 40px solid #f1f1f1;
+  border-bottom: 25px solid transparent;
+  grid-column: 1;
+  grid-row: 1;
+  margin: auto;
+  z-index: 1;
+}
+
+.nxt:hover,
+.prv:hover {
+  cursor: pointer;
+}
+
+/* ------------------------- About Cards --------------------------- */
+.card-container {
+  width: 90%;
+  margin: 35px auto;
+  font-size: 0.95rem;
+}
+.card1,
+.card2 {
+  display: flex;
+  margin: 50px auto !important;
+}
+.img-about {
+  width: 40%;
+}
+.text {
+  padding: 0 20px;
+}
+
+/* ------------------------- ISRO Section --------------------------- */
+.isro-section {
+  margin-top: 80px;
+  display: flex;
+  text-transform: uppercase;
+}
+.isro-img {
+  display: flex;
+}
+.isro-img img {
+  width: 40%;
+  margin: auto;
+  float: right;
+}
+.isro-section h3 {
+  font-weight: 700;
+}
+.heading {
+  padding: 0 20px;
+  width: 50%;
+}
+.heading span {
+  font-size: 1.75rem;
+  font-weight: normal;
+}
+.head {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.isro-text {
+  width: 80%;
+  margin: 25px auto;
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+/* -----------------------Parvaah section-------------------- */
+
+.parvaah-content {
+  margin: auto;
+  margin-bottom: 5vw;
+  padding-top: 7.5vw;
+  width: 70vw;
+  color: #f1f1f1;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+  align-content: center !important;
+}
+
+.images {
+  height: auto;
+  width: 80%;
+  position: relative;
+  top: 10%;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3vw;
+  margin: 0vw auto 3vw auto;
+  align-content: center !important;
+}
+
+.image-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.image-r {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.right {
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+  border-left: 2px solid #f1f1f1;
+}
+
+.left {
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+}
+
+.parvaah-content-text {
+  align-content: center !important;
+  text-align: center;
+}
+
+.know-more {
+  text-align: center;
+  align-content: center;
+}
+.know-more button {
+  color: white;
+  background: transparent;
+  padding: 10px;
+  border: none;
+}
+
+/* ------------------------- Contact Section ----------------------- */
+.contact-header {
+  margin-top: 60px;
+  display: block;
+  text-align: center;
+}
+#contact-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.reach-us {
+  display: flex;
+  line-height: 1.6;
+  align-items: center;
+  margin: auto;
+}
+#contact-section h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+#contact-section h4 {
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+.contact-links {
+  padding-left: 150px;
+  display: flex;
+  font-weight: 500;
+  flex-direction: column;
+  align-items: left;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.contact-links a {
+  padding-top: 10px;
+}
+/* ---------------------------- Timeline ---------------------------*/
+.timeline {
+  width: 85%;
+  margin: auto;
+  margin-top: 70px;
+}
+.timeline-pc img {
+  width: 100%;
+}
+.timeline-mobile {
+  display: none;
+}
+/* ------------------------- Media Sectioon ------------------------ */
+
+@media screen and (max-width: 800px) {
+  /* -------------- Abhiyantriki gif --------------- */
+  .abhiyantriki_animation {
+    width: 100%;
+    margin: auto;
+  }
+  .abhiyantriki_animation img {
+    width: 100%;
+  }
+  /* -------------- Carousel --------------- */
+  #carousel {
+    height: 350px;
+  }
+  .selected a img {
+    height: 200px !important;
+  }
+  .nxt {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 25px solid #f1f1f1;
+    border-bottom: 15px solid transparent;
+    grid-column: 3;
+    grid-row: 1;
+    margin: auto;
+  }
+
+  .prv {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 25px solid #f1f1f1;
+    border-bottom: 15px solid transparent;
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+    z-index: 1;
+  }
+  .inner {
+    margin: 0 !important;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  #carousel {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    height: 55vw;
+    overflow: hidden;
+  }
+
+  #carousel div {
+    position: absolute;
+    transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+    opacity: 1;
+  }
+
+  #carousel div img {
+    height: 50vw;
+    transition: height 1s;
+  }
+
+  #carousel div.hideLeft {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.hideLeft img {
+    height: 3vw;
+  }
+
+  #carousel div.hideRight {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.hideRight img {
+    height: 3vw;
+  }
+
+  #carousel div.prev {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.prev img {
+    height: 3vw;
+  }
+
+  #carousel div.prevLeftSecond {
+    left: 0%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.prevLeftSecond img {
+    height: 3vw;
+  }
+
+  #carousel div.selected {
+    z-index: 10;
+    left: 50%;
+    transform: translateY(0px) translateX(-50%);
+  }
+
+  #carousel div.next {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.next img {
+    height: 3vw;
+  }
+
+  #carousel div.nextRightSecond {
+    left: 100%;
+    opacity: 0;
+    transform: translateY(10%) translateX(-50%);
+  }
+
+  #carousel div.nextRightSecond img {
+    height: 3vw;
+  }
+
+  /* -------- About Cards -------- */
+  .card-container {
+    width: 75%;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+  }
+  .img-about {
+    width: 100%;
+  }
+  .card1 {
+    flex-direction: column;
+  }
+  .card1,
+  .card2 {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .text {
+    padding: 15px 0;
+    font-size: 1.05rem;
+  }
+  /* ------------ Isro Section --------- */
+  .isro-section {
+    display: block;
+  }
+  .isro-img {
+    display: flex;
+  }
+  .isro-img img {
+    float: none;
+  }
+  .heading {
+    text-align: center;
+  }
+  /* .head {
+    font-size: 2.5rem;
+  } */
+  .heading {
+    display: none;
+  }
+  .heading h3 {
+    display: none;
+  }
+  .isro-img {
+    margin: auto;
+    text-align: center;
+  }
+  .isro-text {
+    font-size: 1rem;
+  }
+  /* ---------- Timeline ------------- */
+  .timeline {
+    width: 100%;
+    height: 120%;
+    margin: 40px auto;
+  }
+  .timeline-mobile {
+    display: block;
+  }
+  .timeline-mobile img {
+    width: 100%;
+  }
+  .timeline-pc {
+    display: none;
+  }
+  /* -------- Parvaah Section -------- */
+  .parvaah-content {
+    padding-top: 0vw;
+  }
+  .images {
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+  }
+  .image-l {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+  .image-r {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+    display: none;
+  }
+  .right {
+    border: none;
+  }
+  .parvaah-content-text {
+    display: none;
+  }
+  .know-more {
+    font-size: 1.1rem;
+    margin-top: 25px;
+  }
+  /* ---------- Contact Us ---------- */
+  #contact-section {
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    line-height: 1.5;
+    /* border: 1px solid white; */
+  }
+  .reach-us {
+    display: block;
+    line-height: 1.3;
+  }
+  #contact-section h3 {
+    font-size: 1.4rem;
+  }
+  #contact-section h4 {
+    font-size: 1.1rem;
+    padding-top: 10px;
+  }
+  .contact-links {
+    padding-left: 0px;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    font-size: 1.1rem;
+  }
+  .contact-links a {
+    padding-top: 10px;
+  }
+  .white:hover {
+    /* font-size: 5rem; */
+    text-decoration: none;
+  }
+}

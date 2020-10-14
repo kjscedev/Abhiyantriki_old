@@ -1,0 +1,177 @@
+.container {
+  margin-top: 20px;
+  height: 300px;
+  z-index: 1;
+  color: white;
+}
+
+/* .row {
+	padding: 10px;
+	height: 100px;
+	margin: auto;
+} */
+
+a {
+  margin: auto;
+}
+
+/*-------------------------- Buttons --------------------------*/
+.button-container {
+  padding: 0 20px;
+}
+
+.button {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 5px rgba(241, 239, 239, 0.2);
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.button:after {
+  content: "";
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.button:hover {
+  color: white;
+}
+
+.text {
+  margin: auto;
+  padding: 0 90px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  height: 400px;
+  background-color: white;
+  overflow: scroll;
+}
+
+p {
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+/* ----------------------------- Custom Scroll ----------------------------- */
+/* width */
+.scroller::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.scroller::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.scroller::-webkit-scrollbar-thumb {
+  background: rgba(174, 0, 255, 0.329);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroller::-webkit-scrollbar-thumb:hover {
+  background: purple;
+}
+
+.hidden {
+  display: none;
+}
+
+.clicked-btn {
+  background: purple;
+  color: white;
+}
+
+/*-------------------------- Cards --------------------------*/
+/* https://codepen.io/travishorn/embed/bzXEjd?default-tab=&theme-id= */
+
+.cards {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0rem;
+  /* z-index: 1; */
+  color: black;
+  padding: 0px 15px 0 15px;
+}
+
+.card {
+  height: auto;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.main-card-img {
+  height: 120px;
+  width: 200px;
+  margin: auto;
+}
+
+.card-img {
+  height: 100px;
+  width: 208px;
+  margin: auto;
+}
+
+.card-info {
+  font-size: 1em;
+  padding: 25px 0 20px 0;
+  text-align: center;
+}
+.spons-dev {
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+
+/* Screen larger than 600px - 2 column */
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .spons-dev {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+/* Screen larger than 900px - 3 columns */
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
