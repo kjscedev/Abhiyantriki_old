@@ -46,7 +46,7 @@ $("#sponsor_2017").click(function () {
   $(".sec4").removeClass("hidden");
 });
 
-if (window.innerWidth < 768) {
-  $(".sec1").addClass("hidden");
-}
+// if (window.innerWidth < 768) {
+//   $(".sec1").addClass("hidden");
+// }
 
