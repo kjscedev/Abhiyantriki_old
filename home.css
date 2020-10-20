@@ -189,7 +189,7 @@ nav {
   display: flex;
 }
 .isro-img img {
-  width: 40%;
+  width: 50%;
   margin: auto;
   float: right;
 }
@@ -498,6 +498,7 @@ nav {
     display: flex;
   }
   .isro-img img {
+    width: 60%;
     float: none;
   }
   .heading {
