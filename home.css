@@ -193,11 +193,32 @@ nav {
 }
 
 /* ------------------------- ISRO Section --------------------------- */
-.isro-section {
+.tech-header {
   margin-top: 80px;
+  width: 50%;
+  align-items: center;
+  margin-left: 12%;
+}
+.tech-header h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  display: inline;
+}
+.tech-header span {
+  font-size: 3rem;
+  font-weight: 500;
+  display: inline;
+}
+.isro-section {
+  margin-top: 30px;
   display: flex;
   text-transform: uppercase;
 }
+/* .isro-section {
+  margin-top: 30px;
+  display: flex;
+  text-transform: uppercase;
+} */
 .isro-img {
   display: flex;
 }
@@ -213,14 +234,27 @@ nav {
   padding: 0 20px;
   width: 50%;
 }
+.heading2 {
+  padding: 0 20px;
+  padding-left: 12%;
+  width: 50%;
+}
 .heading span {
   font-size: 1.75rem;
   font-weight: normal;
 }
 .head {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 1;
+}
+.head3 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.heading2 .head{
+  font-size: 3.5rem;
 }
 .isro-text {
   width: 80%;
