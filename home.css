@@ -29,6 +29,19 @@ nav {
 .abhiyantriki_animation img {
   width: 100%;
 }
+.abhiyantriki_animation_live {
+  display: flex;
+  margin: 40px auto 70px;
+}
+.abhiyantriki_animation_live img {
+  width: 50%;
+}
+.abhiyantriki_animation_live iframe {
+  width: 50%;
+  border: 5px white dashed;
+  border-radius: 20px;
+  /* height: 450px; */
+}
 /* --------------------------- Carousel ---------------------------- */
 
 .navslide {
@@ -347,6 +360,17 @@ nav {
   }
   .abhiyantriki_animation img {
     width: 100%;
+  }
+  .abhiyantriki_animation_live {
+    flex-direction: column;
+  }
+  .abhiyantriki_animation_live img {
+    width: 100%;
+  }
+  .abhiyantriki_animation_live iframe {
+    width: 90%;
+    margin: auto;
+    height: 35vh;
   }
   /* -------------- Carousel --------------- */
   #carousel {
