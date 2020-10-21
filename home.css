@@ -558,7 +558,8 @@ nav {
   }
   /* ------------ Isro Section --------- */
   .isro-section {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .isro-img {
     display: flex;
@@ -568,12 +569,16 @@ nav {
     float: none;
   }
   .heading {
+    display: block;
     text-align: center;
   }
   /* .head {
     font-size: 2.5rem;
   } */
   .heading {
+    display: none;
+  }
+  .heading2 {
     display: none;
   }
   .heading h3 {
