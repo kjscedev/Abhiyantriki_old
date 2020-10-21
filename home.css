@@ -227,6 +227,14 @@ nav {
   margin: auto;
   float: right;
 }
+.isro-img1 {
+  display: flex;
+}
+.isro-img1 img {
+  width: 45%;
+  margin: auto;
+  float: right;
+}
 .isro-section h3 {
   font-weight: 700;
 }
