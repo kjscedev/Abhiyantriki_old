@@ -58,6 +58,7 @@ li {
   text-transform: capitalize;
   font-size: 1rem;
   margin-top: 10vh;
+  padding-left: 15px;
 }
 
 .img-even {
@@ -71,7 +72,7 @@ li {
   width: 100%;
   float: left;
   text-align: justify;
-  padding-right: 2%;
+  /* padding-right: 2%; */
   color: #f1f1f1;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -83,9 +84,20 @@ li {
   width: 100%;
 }
 
+/* ----------------------- Indro ------------------------------ */
+#indro {
+  width: 60%;
+}
+#indro.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
 .text {
   text-align: center;
 }
+
+/* ------------------------- Media ------------------------------ */
+
 @media screen and (max-width: 800px) {
   .parvaah-content {
     padding-top: 0vw;
