@@ -210,9 +210,12 @@ nav {
   display: inline;
 }
 .isro-section {
-  margin-top: 30px;
+  margin-top: 80px;
   display: flex;
   text-transform: uppercase;
+}
+.isro-section:nth-child(3n + 1) {
+  margin-top: 30px !important;
 }
 /* .isro-section {
   margin-top: 30px;
@@ -261,7 +264,7 @@ nav {
   font-weight: 700;
   line-height: 1;
 }
-.heading2 .head{
+.heading2 .head {
   font-size: 3.5rem;
 }
 .isro-text {
@@ -572,9 +575,12 @@ nav {
     display: block;
     text-align: center;
   }
-  /* .head {
+  .tech-header h3 {
+    font-size: 2.75rem;
+  }
+  .tech-header span {
     font-size: 2.5rem;
-  } */
+  }
   .heading {
     display: none;
   }
@@ -589,7 +595,7 @@ nav {
     text-align: center;
   }
   .isro-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   /* ---------- Timeline ------------- */
   .timeline {
