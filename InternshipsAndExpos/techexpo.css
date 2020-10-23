@@ -92,6 +92,104 @@ li {
   width: 100%;
   height: 50vh;
 }
+#name-1 {
+  width: 60%;
+}
+#name-1.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-2 {
+  width: 60%;
+}
+#name-2.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-3 {
+  width: 60%;
+}
+#name-3.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-4 {
+  width: 60%;
+}
+#name-4.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-5 {
+  width: 60%;
+}
+#name-5.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-6 {
+  width: 60%;
+}
+#name-6.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-7 {
+  width: 60%;
+}
+#name-7.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-8 {
+  width: 60%;
+}
+#name-8.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-9 {
+  width: 60%;
+}
+#name-9.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-10 {
+  width: 60%;
+}
+#name-10.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-11 {
+  width: 60%;
+}
+#name-11.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-12 {
+  width: 60%;
+}
+#name-12.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-13 {
+  width: 60%;
+}
+#name-13.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-14 {
+  width: 60%;
+}
+#name-14.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
 .text {
   text-align: center;
 }
@@ -106,7 +204,7 @@ li {
   right: 0;
   left: 0;
   bottom: 0;
-  width: 100px;
+  width: 120px;
   height: 50px;
   margin: auto;
   /* background-color: black; */
@@ -200,9 +298,47 @@ li {
     width: 100%;
     /* height: 150px; */
   }
+  #name-1 {
+    width: 100%;
+  }
   #name-2 {
     width: 100%;
-    /* height: 150px; */
+  }
+  #name-3 {
+    width: 100%;
+  }
+  #name-4 {
+    width: 100%;
+  }
+  #name-5 {
+    width: 100%;
+  }
+  #name-6 {
+    width: 100%;
+  }
+  #name-7 {
+    width: 100%;
+  }
+  #name-8 {
+    width: 100%;
+  }
+  #name-9 {
+    width: 100%;
+  }
+  #name-10 {
+    width: 100%;
+  }
+  #name-11 {
+    width: 100%;
+  }
+  #name-12 {
+    width: 100%;
+  }
+  #name-13 {
+    width: 100%;
+  }
+  #name-14 {
+    width: 100%;
   }
   iframe {
     height: 35vh !important;
