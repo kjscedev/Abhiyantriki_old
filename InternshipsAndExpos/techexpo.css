@@ -211,6 +211,27 @@ li {
   width: 100%;
   height: 50vh;
 }
+#name-18 {
+  width: 60%;
+}
+#name-18.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-19 {
+  width: 60%;
+}
+#name-19.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-20 {
+  width: 60%;
+}
+#name-20.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
 .text {
   text-align: center;
 }
@@ -368,6 +389,15 @@ li {
     width: 100%;
   }
   #name-17 {
+    width: 100%;
+  }
+  #name-18 {
+    width: 100%;
+  }
+  #name-19 {
+    width: 100%;
+  }
+  #name-20 {
     width: 100%;
   }
   iframe {

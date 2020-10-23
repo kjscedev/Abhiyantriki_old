@@ -66,3 +66,19 @@ document.getElementById('name-16').addEventListener('click', function() {
     this.innerHTML = '<iframe src="https://drive.google.com/file/d/102USljNXd1R03dyeehyPO9SgvoLpbV-F/preview">';
     this.className = 'video-embed order-1 order-md-2';
   });
+  document.getElementById('name-17').addEventListener('click', function() {
+    this.innerHTML = '<iframe src="https://drive.google.com/file/d/1qnVn76r3i4lqtu0IjBfkzIdwaW6a3Elv/preview">';
+    this.className = 'video-embed';
+  });
+  document.getElementById('name-18').addEventListener('click', function() {
+    this.innerHTML = '<iframe src="https://drive.google.com/file/d/1-q_-T0RwvIWoKKMDiU3v2YNcKaddhP0S/preview">';
+    this.className = 'video-embed order-1 order-md-2';
+  });
+  document.getElementById('name-19').addEventListener('click', function() {
+    this.innerHTML = '<iframe src="https://drive.google.com/file/d/1qVU8g1zND6eSVLTSKBtUsiznCXf_LEIh/preview">';
+    this.className = 'video-embed';
+  });
+  document.getElementById('name-20').addEventListener('click', function() {
+    this.innerHTML = '<iframe src="https://drive.google.com/file/d/1-q_-T0RwvIWoKKMDiU3v2YNcKaddhP0S/preview">';
+    this.className = 'video-embed order-1 order-md-2';
+  });
