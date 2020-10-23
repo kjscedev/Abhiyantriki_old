@@ -275,6 +275,19 @@ li {
   width: 100%;
   height: 50vh;
 }
+.vid {
+  width: 100%;
+}
+.vid iframe {
+  width: 100%;
+  height: 50vh;
+}
+.mega-text h1 {
+  font-size: 4.25rem;
+}
+.mega-text span {
+  font-size: 1.5rem;
+}
 /* ------------------------- Media ------------------------------ */
 
 @media screen and (max-width: 800px) {
@@ -316,7 +329,7 @@ li {
   .card-odd {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
+    padding: 3rem 0;
   }
   .card-even {
     display: flex;
@@ -402,5 +415,11 @@ li {
   }
   iframe {
     height: 35vh !important;
+  }
+  .mega-text h1 {
+    font-size: 2.25rem;
+  }
+  .mega-text span {
+    font-size: 1.25rem;
   }
 }
