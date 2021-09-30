@@ -1,0 +1,235 @@
+.container {
+  margin-top: 20px;
+  /* height: 300px; */
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+.row {
+  padding: 20px;
+  height: 300px;
+}
+
+.overlay-head {
+  width: 90vw;
+}
+canvas {
+  display: block;
+  /* vertical-align: bottom; */
+} /* ---- particles.js container ---- */
+#particles-js {
+  /* position: absolute; */
+  width: 60vw;
+  margin: auto;
+  height: 40vh;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -3;
+}
+#particles-js h1 {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0vw;
+  right: 0;
+}
+/* ----------------------volunteer button-------------------------- */
+.volunteer__button ul li a {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.volunteer__button {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+/* -------------------------------card section--------------------------------- */
+.parvaah-content {
+  /* margin: auto; */
+  margin-bottom: 5vw;
+  margin-left: 4vw;
+  padding-top: 7.5vw;
+  width: 70vw;
+  color: #f1f1f1;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.images {
+  height: auto;
+  width: 80%;
+  position: relative;
+  top: 10%;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 0 auto;
+  align-content: center !important;
+}
+
+.image-l {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.image-r {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.right {
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+  border-left: 2px solid #f1f1f1;
+}
+
+.left {
+  width: 60%;
+  padding: 2% 5%;
+  float: right;
+  margin: auto;
+}
+
+.card-container {
+  width: 90vw;
+  padding: 0 10vw;
+  transform: translateX(-5vw);
+  margin-right: 4vw;
+}
+
+.card-odd,
+.card-even {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.img-odd {
+  width: 30%;
+  float: left;
+}
+
+.text {
+  width: 80%;
+  margin: auto;
+  /* float: right; */
+  padding: 15px;
+  color: #f1f1f1;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.img-even {
+  width: 30%;
+  float: right;
+  padding: 1%;
+}
+
+.text-even {
+  width: 70%;
+  float: left;
+  text-align: right;
+  padding-right: 2%;
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.image {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .overlay-head {
+    margin-bottom: 15px;
+  }
+  #particles-js {
+    height: 30vh;
+    width: 90vw;
+  }
+  #particles-js h1 {
+    font-size: 3.5rem;
+  }
+  .parvaah-content {
+    padding-top: 0vw;
+    margin: auto;
+  }
+
+  .images {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    left: -3%;
+  }
+
+  .image-l {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .image-r {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+  }
+  .right {
+    border: none;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* margin-left: 10vw; */
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-odd {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 40px 0;
+    text-align: center;
+  }
+  .card-even {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-container img {
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    margin-left: 40%;
+  }
+  .text {
+    width: 85%;
+    margin: auto;
+    margin-left: 15%;
+  }
+}
