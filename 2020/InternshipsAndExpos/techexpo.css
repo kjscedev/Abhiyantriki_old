@@ -1,0 +1,425 @@
+.container {
+  margin-top: 20px;
+  height: 300px;
+  z-index: 1;
+  color: white;
+  position: relative;
+}
+.row {
+  padding: 20px;
+  height: 300px;
+}
+
+/* ----------------------register button-------------------------- */
+.register__button ul li a {
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.register__button {
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+/* -------------------------------Tech Expo section--------------------------------- */
+
+.card-container {
+  width: 90vw;
+  padding: 0 10vw;
+  transform: translateX(-5vw);
+  margin-right: 4vw;
+}
+
+.card-odd,
+.card-even {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 5%;
+}
+
+.img-odd {
+  width: 60%;
+  float: left;
+  padding: 1%;
+  height: auto;
+}
+
+.text-odd {
+  width: 100%;
+  float: right;
+  text-align: left;
+  color: #f1f1f1;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 10vh;
+  padding: 0 15px;
+}
+
+.img-even {
+  width: 60%;
+  float: right;
+  padding: 1%;
+  height: auto;
+}
+
+.text-even {
+  width: 100%;
+  float: left;
+  text-align: justify;
+  /* padding-right: 2%; */
+  color: #f1f1f1;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-top: 10vh;
+}
+
+.image {
+  width: 100%;
+}
+
+/* ----------------------- Indro ------------------------------ */
+#indro {
+  width: 60%;
+}
+#indro.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-1 {
+  width: 60%;
+}
+#name-1.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-2 {
+  width: 60%;
+}
+#name-2.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-3 {
+  width: 60%;
+}
+#name-3.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-4 {
+  width: 60%;
+}
+#name-4.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-5 {
+  width: 60%;
+}
+#name-5.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-6 {
+  width: 60%;
+}
+#name-6.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-7 {
+  width: 60%;
+}
+#name-7.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-8 {
+  width: 60%;
+}
+#name-8.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-9 {
+  width: 60%;
+}
+#name-9.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-10 {
+  width: 60%;
+}
+#name-10.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-11 {
+  width: 60%;
+}
+#name-11.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-12 {
+  width: 60%;
+}
+#name-12.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-13 {
+  width: 60%;
+}
+#name-13.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-14 {
+  width: 60%;
+}
+#name-14.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-15 {
+  width: 60%;
+}
+#name-15.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-16 {
+  width: 60%;
+}
+#name-16.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-17 {
+  width: 60%;
+}
+#name-17.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-18 {
+  width: 60%;
+}
+#name-18.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-19 {
+  width: 60%;
+}
+#name-19.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+#name-20 {
+  width: 60%;
+}
+#name-20.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+.text {
+  text-align: center;
+}
+.img-smart {
+  position: relative;
+  transition: 1s ease-in-out;
+}
+.click-me {
+  position: absolute;
+  display: none;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  height: 50px;
+  margin: auto;
+  /* background-color: black; */
+  z-index: 5;
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.click-me:hover {
+  cursor: pointer;
+}
+.btn-hover {
+  font-size: 1.25rem;
+  background-color: #222;
+}
+.img-smart:hover img {
+  opacity: 0.3;
+  cursor: pointer;
+}
+.img-smart:hover .click-me {
+  display: flex;
+}
+
+#name-2 {
+  width: 60%;
+}
+#name-2.video-embed iframe {
+  width: 100%;
+  height: 50vh;
+}
+.vid {
+  width: 100%;
+}
+.vid iframe {
+  width: 100%;
+  height: 50vh;
+}
+.mega-text h1 {
+  font-size: 4.25rem;
+}
+.mega-text span {
+  font-size: 1.5rem;
+}
+/* ------------------------- Media ------------------------------ */
+
+@media screen and (max-width: 800px) {
+  .parvaah-content {
+    padding-top: 0vw;
+    margin: auto;
+  }
+
+  .images {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    left: -3%;
+  }
+
+  .image-l {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .image-r {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+  }
+  .right {
+    border: none;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .card-odd {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+  }
+  .card-even {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card-container img {
+    width: 70vw;
+  }
+  .image {
+    padding-left: 10vw;
+  }
+  .text-even,
+  .text-odd {
+    text-align: center;
+    margin-top: 15px;
+    /* margin-right: 5vw; */
+  }
+
+  /* ----------------------- Video embed ------------------------ */
+  #indro {
+    width: 100%;
+    /* height: 150px; */
+  }
+  #name-1 {
+    width: 100%;
+  }
+  #name-2 {
+    width: 100%;
+  }
+  #name-3 {
+    width: 100%;
+  }
+  #name-4 {
+    width: 100%;
+  }
+  #name-5 {
+    width: 100%;
+  }
+  #name-6 {
+    width: 100%;
+  }
+  #name-7 {
+    width: 100%;
+  }
+  #name-8 {
+    width: 100%;
+  }
+  #name-9 {
+    width: 100%;
+  }
+  #name-10 {
+    width: 100%;
+  }
+  #name-11 {
+    width: 100%;
+  }
+  #name-12 {
+    width: 100%;
+  }
+  #name-13 {
+    width: 100%;
+  }
+  #name-14 {
+    width: 100%;
+  }
+  #name-15 {
+    width: 100%;
+  }
+  #name-16 {
+    width: 100%;
+  }
+  #name-17 {
+    width: 100%;
+  }
+  #name-18 {
+    width: 100%;
+  }
+  #name-19 {
+    width: 100%;
+  }
+  #name-20 {
+    width: 100%;
+  }
+  iframe {
+    height: 35vh !important;
+  }
+  .mega-text h1 {
+    font-size: 2.25rem;
+  }
+  .mega-text span {
+    font-size: 1.25rem;
+  }
+}
