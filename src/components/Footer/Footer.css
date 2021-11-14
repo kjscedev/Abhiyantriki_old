@@ -1,0 +1,80 @@
+.dev-name {
+  color: var(--yellow) !important;
+}
+
+.codecell {
+  color: #11f1ff !important;
+}
+
+.site-footer {
+  padding: 45px 0 0px;
+  font-size: 1rem;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
+.list-unstyled {
+  list-style-type: none;
+  /* font-weight: bold; */
+}
+.a-cancel {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* sync with .follow in sidebar.css */
+.footer-heading {
+  color: #11f1ff !important;
+  font-size: 1.5rem;
+}
+.line {
+  border-bottom: 2px solid var(--yellow);
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.link-heading-li {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.link-heading {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.highlight-on-hover:hover {
+  color: var(--yellow) !important;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-links a {
+  padding-top: 5px;
+  color: white;
+  text-decoration: none;
+}
+.contact-links i {
+  margin-right: 10px;
+}
+
+.follow-us-on i {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.map-wala-iframe {
+  border: 4px solid var(--yellow);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+  .line {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}

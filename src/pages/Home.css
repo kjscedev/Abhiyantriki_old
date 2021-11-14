@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  .home {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.main-home {
+  overflow-x: hidden !important;
+}

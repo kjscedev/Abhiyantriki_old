@@ -1,0 +1,18 @@
+.years {
+  margin: 5vh;
+  text-align: center;
+}
+
+.info {
+  margin: 5vh;
+} 
+
+@media screen and (max-width: 768px) {
+  .years {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,113 @@
+/* body style applied on all screens */
+body {
+  background-image: linear-gradient(#001121, #001121);
+  overflow-x: hidden !important;
+  font-family: "Roboto", sans-serif !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --yellow: #fce588;
+}
+
+.active {
+  background-color: #00bcd4 !important;
+  color: white !important;
+}
+.list-group .list-group-item {
+  background-color: transparent !important;
+  color: white !important;
+  border: none !important;
+}
+.list-group .list-group-item.active-scroll-spy {
+  color: #00bcd4 !important;
+  font-size: 3.2em !important;
+  transition: font-size 0.3s ease-in-out;
+}
+
+/* For custom Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  background-image: linear-gradient(#11112d, #11112e);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(68, 3, 230, 0.2);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: aliceblue;
+}
+
+.anim-loader {
+  animation: carouselAnim ease-in-out 1s forwards;
+}
+
+@keyframes carouselAnim {
+  0% {
+    transform: scale(0.8, 0.8);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+/* parvaah ke styles */
+.heading {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  background-color: #001121;
+  font-family: "Roboto", "sans-serif";
+  text-align: center !important;
+  font-size: 50px;
+  padding-top: 30px;
+}
+.vl {
+  height: 25vw;
+  width: 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+.logo {
+  height: 250px;
+  width: auto;
+  margin: 1vw;
+  float: left;
+}
+.parvaah-text {
+  font-size: 1.3rem;
+  margin: 10px;
+  color: aliceblue;
+}
+.text-center {
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .vl {
+    margin: 3rem auto;
+    height: 5px;
+    width: 25vh;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .parvaah {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

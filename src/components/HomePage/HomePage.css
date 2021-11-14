@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  .homepage {
+    display: flex;
+    align-items: center;
+  }
+  .home-resp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

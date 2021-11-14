@@ -1,0 +1,18 @@
+.year-btn{
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: aliceblue;
+  border: 1px solid rgba(17, 241, 255, 0.6);
+  box-shadow: 0 0 5px rgba(17, 241, 255, 0.6);
+}
+
+.year-btn:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .year-btn {
+    margin: 1vh;
+  }
+}

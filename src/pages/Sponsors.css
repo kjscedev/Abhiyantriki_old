@@ -1,0 +1,47 @@
+.sponsor-head {
+  font-size: 1.5rem;
+  color: var(--yellow);
+  margin: 5vh;
+}
+
+.sponsor-text {
+  font-size: 1rem;
+  color: aliceblue;
+}
+.alignCentre {
+  text-align: center;
+}
+.floatLeft {
+  float: left;
+  padding: 1rem;
+}
+
+/* year carousal */
+.font-size {
+  font-size: 4vw;
+}
+
+.animation {
+  animation: grow-animation 0.5s linear normal;
+}
+
+.displaying-year {
+  color: var(--yellow);
+  font-size: 6vw;
+}
+
+@keyframes grow-animation {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.arrows {
+  color: #11f1ff;
+}

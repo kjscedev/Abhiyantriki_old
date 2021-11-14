@@ -1,0 +1,43 @@
+.abhiyantriki {
+  text-align: start;
+}
+
+.kjsce {
+  text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+  .kjsce {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+
+  .abhiyantriki {
+    display: block;
+    margin: auto;
+    width: 40vw;
+  }
+  .about-kjsce,
+  .about-abhiyantriki,
+  .titles {
+    text-align: center;
+  }
+
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .about-item-1 {
+    order: 2;
+  }
+  .about-item-2 {
+    order: 1;
+  }
+  .about-item-3 {
+    order: 3;
+  }
+}

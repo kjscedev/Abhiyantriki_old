@@ -1,0 +1,41 @@
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.active-scroll-spy {
+  /* background-color: purple; */
+  border-radius: 10px;
+  transition: all 0.5s;
+  box-shadow: 0 0 13px rgba(17, 241, 255, 0.6);
+  color: var(--yellow);
+}
+.ss-item {
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.particles,
+#tsparticles {
+  position: relative;
+}
+.small-nav-div {
+  -webkit-box-shadow: 0 8px 6px -6px rgba(17, 241, 255, 0.6);
+  -moz-box-shadow: 0 8px 6px -6px rgba(17, 241, 255, 0.6);
+  box-shadow: 0 8px 6px -6px rgba(17, 241, 255, 0.6);
+}
+
+.section-gifs {
+  width: 25vw;
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px){
+  .section-gifs {
+    width: 75vw;
+  }
+}

@@ -1,0 +1,202 @@
+/* credits: https://codepen.io/Ducke/details/zBwGgm */
+
+@-webkit-keyframes holox-fed {
+  0% {
+    box-shadow: 0 0 13px rgba(17, 241, 255, 0.6) inset;
+  }
+  50% {
+    box-shadow: 0 0 14px #11f1ff inset;
+  }
+  100% {
+    box-shadow: 0 0 13px rgba(17, 241, 255, 0.6) inset;
+  }
+}
+@keyframes holox-fed {
+  0% {
+    box-shadow: 0 0 13px rgba(17, 241, 255, 0.6) inset;
+  }
+  50% {
+    box-shadow: 0 0 14px #11f1ff inset;
+  }
+  100% {
+    box-shadow: 0 0 13px rgba(17, 241, 255, 0.6) inset;
+  }
+}
+@-webkit-keyframes holox-reb {
+  0% {
+    box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
+  }
+  50% {
+    box-shadow: 0 0 14px #ff0900 inset;
+  }
+  100% {
+    box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
+  }
+}
+@keyframes holox-reb {
+  0% {
+    box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
+  }
+  50% {
+    box-shadow: 0 0 14px #ff0900 inset;
+  }
+  100% {
+    box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
+  }
+}
+@-webkit-keyframes holox-pen {
+  0% {
+    box-shadow: 0 0 13px rgba(102, 102, 102, 0.6) inset;
+  }
+  50% {
+    box-shadow: 0 0 14px #666666 inset;
+  }
+  100% {
+    box-shadow: 0 0 13px rgba(102, 102, 102, 0.6) inset;
+  }
+}
+@keyframes holox-pen {
+  0% {
+    box-shadow: 0 0 13px rgba(102, 102, 102, 0.6) inset;
+  }
+  50% {
+    box-shadow: 0 0 14px #666666 inset;
+  }
+  100% {
+    box-shadow: 0 0 13px rgba(102, 102, 102, 0.6) inset;
+  }
+}
+a[class^="holo-btn"] {
+  color: #999;
+  font: normal 1.1em/3.11em Electrolize, "Cultive Mono", Tahoma, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  transition: all 330ms linear;
+}
+a[class^="holo-btn"]:hover {
+  color: #fff;
+  text-rendering: optimizeLegibility;
+}
+a[class^="holo-btn"]:hover .top {
+  margin-top: -55px;
+  -webkit-animation: none;
+  animation: none;
+  box-shadow: none;
+}
+a[class^="holo-btn"]:hover .bottom {
+  margin-top: -47px;
+}
+a[class^="holo-btn"]:active .skew {
+  -webkit-animation: none;
+  animation: none;
+  box-shadow: 0 0 22px rgba(102, 102, 102, 0.6) inset;
+}
+
+a.holo-btn span {
+  box-sizing: border-box;
+}
+
+a.holo-btn-fed {
+  color: #00f7ff;
+}
+a.holo-btn-fed:hover {
+  color: #e5feff;
+}
+a.holo-btn-fed:active .skew {
+  box-shadow: 0 0 22px rgba(17, 241, 255, 0.6) inset;
+}
+
+a.holo-btn-reb {
+  color: #ff443d;
+}
+a.holo-btn-reb:hover {
+  color: #ffd8d6;
+}
+a.holo-btn-reb:active .skew {
+  box-shadow: 0 0 22px rgba(255, 9, 0, 0.6) inset;
+}
+
+span[class^="cta"] {
+  width: 100%;
+  display: block;
+  padding: 0 29px;
+  text-shadow: 0 0 30px #666;
+}
+span[class^="cta"]:before {
+  text-transform: none;
+  font-family: fontastic1;
+  font-size: 1.4em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 22px;
+  padding-bottom: 4px;
+  transition: margin 500ms cubic-bezier(0.79, 0.01, 1, 0.21);
+}
+
+.holo-btn-fed span[class^="cta"] {
+  text-shadow: 0 0 30px #11f1ff;
+}
+
+.holo-btn-reb span[class^="cta"] {
+  text-shadow: 0 0 30px #ff0900;
+}
+
+.cta-d:before {
+  content: "d";
+}
+
+.cta-e:before {
+  content: "+";
+}
+
+.cta-f:before {
+  content: "f";
+}
+
+.cta-h:before {
+  content: "h";
+}
+
+.cta-x:before {
+  content: "x";
+}
+
+.top {
+  margin-top: -60px;
+}
+
+.bottom {
+  margin-top: -42px;
+}
+
+.skew {
+  transform: skew(-45deg);
+  border: 1px solid transparent;
+  border-right-width: 2px;
+  -o-border-image: linear-gradient(to bottom right, #bbbbbb 0%, #999999 100%) 1;
+  border-image: linear-gradient(to bottom right, #bbbbbb 0%, #999999 100%) 1;
+  -webkit-animation: holox-pen 5.4s ease 1s infinite;
+  animation: holox-pen 5.4s ease 1s infinite;
+  padding: 24px;
+  display: block;
+  transition: all 330ms linear;
+  box-shadow: 0 0 13px rgba(102, 102, 102, 0.6) inset;
+}
+
+.holo-btn-fed .skew {
+  -o-border-image: linear-gradient(to bottom right, #99fcff 0%, #00f7ff 100%) 1;
+  border-image: linear-gradient(to bottom right, #99fcff 0%, #00f7ff 100%) 1;
+  -webkit-animation-name: holox-fed;
+  animation-name: holox-fed;
+  box-shadow: 0 0 13px rgba(17, 241, 255, 0.6) inset;
+}
+
+.holo-btn-reb .skew {
+  -o-border-image: linear-gradient(to bottom right, #ff7570 0%, #ff443d 100%) 1;
+  border-image: linear-gradient(to bottom right, #ff7570 0%, #ff443d 100%) 1;
+  -webkit-animation-name: holox-reb;
+  animation-name: holox-reb;
+  box-shadow: 0 0 13px rgba(255, 9, 0, 0.6) inset;
+}

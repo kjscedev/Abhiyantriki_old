@@ -1,0 +1,37 @@
+.event-card {
+  margin: 5vh;
+  font-size: 1rem;
+}
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.event-img {
+  margin: 5px;
+}
+
+hr
+{ 
+   margin-top: 0.3em;
+   margin-bottom: 0.3em;
+   border-width: 2px;
+} 
+
+
+.btn {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: aliceblue;
+  border: 1px solid rgba(17, 241, 255, 0.6);
+  box-shadow: 0 0 5px rgba(17, 241, 255, 0.6);
+}
+
+@media only screen and (max-width: 768px){
+  .event-poster {
+    width: 80vw;
+  }
+}
